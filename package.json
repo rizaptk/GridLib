@@ -1,0 +1,11 @@
+{
+  "name": "gridlib",
+  "version": "1.0.0",
+  "description": "A reusable grid library",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

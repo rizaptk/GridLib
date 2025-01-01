@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridLib Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div data-grid></div>
+    <script src="dist/grid.js"></script>
+    <script>
+        const config = {
+            rows: 100,
+            cols: 500,
+            freezeRows: 2,
+            freezeCols: 1,
+        };
+        new Grid(config);
+    </script>
+</body>
+</html>

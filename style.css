@@ -1,0 +1,63 @@
+/* style.css - basic styles for the grid */
+[data-grid] {
+    display: grid;
+    border: 1px solid black;
+    overflow: auto;
+    border-spacing: 0;
+}
+
+.grid-header-cell {
+    padding: 8px;
+    min-width: 100px;
+    min-height: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+.grid-row-number-cell {
+    padding: 8px;
+    min-width: 50px;
+    min-height: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.grid-cell {
+    padding: 8px;
+    min-width: 100px;
+    min-height: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.grid-cell.selected {
+    background-color: #cce5ff;
+}
+
+.resize-handle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #999;
+    cursor: col-resize;
+}
+
+.frozen-row {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.frozen-col {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+}
