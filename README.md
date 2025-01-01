@@ -15,7 +15,7 @@ The `Grid` class constructor accepts a configuration object with the following p
 
 1.  Include `style.css` in your HTML file.
 2.  Add a `div` element with the `data-grid` attribute to your HTML file.
-3.  Include `src/grid.ts` in your HTML file.
+3.  Include `dist/grid.js` in your HTML file.
 4.  Create a new `Grid` instance with your desired configuration.
 
 ## Features
